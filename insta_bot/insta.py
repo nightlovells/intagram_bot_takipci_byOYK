@@ -21,8 +21,8 @@ print(Fore.RED + """
 print("""Bu program unlu kisileri takip eder/takipten cikar. Boylece saatte yaklasik 15 takipci getirir. Bu program
 calisirken lütfen instagram hesabinizdan herhangi bir islem yapmayiniz. @omryk.to8\n""")
 
-path = 'C:/Users/lordo/Desktop/wp_bot/geckodriver.exe'
-binary_path = 'C:/Program Files/Mozilla Firefox/firefox.exe'
+path = '/insta_bot/geckodriver.exe'
+binary_path = '/Mozilla Firefox/firefox.exe'
 service = Service(path)
 options = Options()
 options.binary_location = binary_path
